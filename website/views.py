@@ -8,3 +8,5 @@ def welcome(request):
 def date(request):
     return HttpResponse("This page was served at " + str(datetime.now()))
 
+def aboutMe(request):
+    return HttpResponse("Hi, I'm learning django :D, thanks for visit my page :3")
